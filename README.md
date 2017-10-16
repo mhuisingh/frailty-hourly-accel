@@ -12,7 +12,7 @@ requires the following:
 - `activity_hrs.dta` (NSHAP Wave 2 hourly activity data)
 - `nshap_activity.dta` (NSHAP Wave 2 raw activity counts)
 
-Place these items into the `data` subdirectory. Then excecute the following
+Place these items into the `data` subdirectory. Then execute the following
 do-files (in order) *from the root of the project*:
 
 1. `build_dataset.do`
