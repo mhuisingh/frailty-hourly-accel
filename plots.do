@@ -44,3 +44,4 @@ line p_male p_female hour, sort name(g4) legend(cols(1) ring(0) pos(7) region(ls
 gr combine g1 g2 g3 g4, iscale(*0.75)
 gr export tmp/splines.eps, replace
 gr export tmp/splines.pdf, replace
+gr export tmp/splines.tif, width(1800) replace
